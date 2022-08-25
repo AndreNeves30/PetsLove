@@ -6,4 +6,5 @@
     <string name="insira_sua_senha">Insira sua Senha</string>
     <string name="entrar">Entrar</string>
     <string name="sair">Sair</string>
+    <string name="email">Insira seu email</string>
 </resources>
