@@ -10,18 +10,23 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/borda"
+        android:drawableRight="@drawable/ic_baseline_alternate_email_24"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:maxLength="100"
-        android:layout_marginHorizontal="30dp"
-        />
+        android:maxLength="100" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/borda"
+        android:drawableRight="@drawable/ic_baseline_lock"
         android:hint="@string/insira_sua_senha"
         android:inputType="textPassword"
-        android:maxLength="100"
-        android:layout_marginHorizontal="30dp"
-        />
+        android:maxLength="100" />
 
 </LinearLayout>
