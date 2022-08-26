@@ -54,6 +54,7 @@
 
 
         </com.google.android.material.textfield.TextInputLayout>
+
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,6 +71,12 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrar"
+                app:icon="@drawable/ic_baseline_lock"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"/>
     </LinearLayout>
 
 </LinearLayout>
