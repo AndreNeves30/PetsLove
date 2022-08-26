@@ -13,8 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
-        android:orientation="vertical"
-        android:background="#EE000000">
+        android:background="#EE000000"
+        android:orientation="vertical">
 
 
         <EditText
@@ -38,6 +38,38 @@
             android:inputType="textPassword"
             android:maxLength="100"
             android:minHeight="48dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            app:startIconContentDescription="@string/email"
+            app:startIconDrawable="@drawable/ic_baseline_alternate_email_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle"
+            app:startIconContentDescription="inserir senha"
+            app:startIconDrawable="@drawable/ic_baseline_lock">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
     </LinearLayout>
 
 </LinearLayout>
